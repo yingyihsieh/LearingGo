@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 //全局變量
 //var HEADERS = "user-agent"
 
@@ -92,4 +94,29 @@ func main() {
 	//} else {
 	//	fmt.Println("a <= b")
 	//}
+
+	//a, b := 10, 21
+	//if a > b {
+	//	fmt.Println("a > b")
+	//} else if a == b {
+	//	fmt.Println("a = b")
+	//} else {
+	//	fmt.Println("a < b")
+	//}
+
+	//homework
+	fmt.Println("plz enter a score")
+	var score int
+	_, _ = fmt.Scanln(&score)
+	if 90 <= score && score <= 100 {
+		fmt.Println("get A")
+	} else if 80 <= score && score < 90 {
+		fmt.Println("get B")
+	} else if 70 <= score && score < 80 {
+		fmt.Println("get C")
+	} else if 60 <= score && score < 70 {
+		fmt.Println("get D")
+	} else {
+		fmt.Println("get E")
+	}
 }
