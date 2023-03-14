@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"math/rand"
-)
-
 //全局變量
 //var HEADERS = "user-agent"
 
@@ -88,12 +83,13 @@ func main() {
 	//line, isPrefix, _ := reader.ReadLine()
 	//data := string(line)
 	//fmt.Println(isPrefix, data)
-	
-	var a, b = rand.Intn(100), rand.Intn(100)
-	fmt.Println("a=", a, "b=", b)
-	if a > b {
-		fmt.Println("a > b")
-	} else {
-		fmt.Println("a <= b")
-	}
+
+	//條件
+	//var a, b = rand.Intn(100), rand.Intn(100)
+	//fmt.Println("a=", a, "b=", b)
+	//if a > b {
+	//	fmt.Println("a > b")
+	//} else {
+	//	fmt.Println("a <= b")
+	//}
 }
