@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 //全局變量
 //var HEADERS = "user-agent"
 
@@ -92,4 +94,13 @@ func main() {
 	//} else {
 	//	fmt.Println("a <= b")
 	//}
+
+	a, b := 10, 21
+	if a > b {
+		fmt.Println("a > b")
+	} else if a == b {
+		fmt.Println("a = b")
+	} else {
+		fmt.Println("a < b")
+	}
 }
